@@ -5,7 +5,7 @@ const cors = require('cors');
 const posts = require('../model/posts')
 
 const options = {
-    origin: "http://localhost:3000"
+    origin: "https://9reis.github.io/Mural-de-Avisos/"
 }
 router.use(cors(options));
 
