@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <title>Mural de Aviso</title>
 </head>
 <body>
     
-    <h1>Teste</h1>
+<div class="container">
+    <h3>Novo Post</h3>
+    <div>
+        <label for="title">Titulo</label> <br>
+        <input type="text" id="title" size="30" placeholder="Título" > <br><br>
 
+        <label for="desc">Descrição</label><br>
+        <textarea id="desc" cols="33" rows="3"></textarea><br>
+        <button onclick="" type="button" class="btn btn-outline-dark">Salvar</button>  
+    </div> <!-- FINAL FORM -->
+
+    <h2 class="mt-4">Mural</h2>
+
+    <div id="posts">
+
+    </div>
+
+
+</div> <!-- FINAL CONTAINER -->
+
+
+    
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
